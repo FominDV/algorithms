@@ -7,7 +7,7 @@ public class Queue {
 
     private int[] array = new int[10];
     private int head = 0;
-    private int tail = 1;
+    private int tail = 0;
     private int countElements; // заполненность всех элементов очереди
 
     /**
